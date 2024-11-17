@@ -79,6 +79,7 @@
     border-radius: 8px;
     background-color: var(--input-bg);
     transition: border-color 0.2s;
+    color: black;
   }
   
   .input-group input:focus {

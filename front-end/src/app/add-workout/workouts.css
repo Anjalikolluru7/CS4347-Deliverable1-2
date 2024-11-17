@@ -5,6 +5,7 @@
     --card-bg: #ffffff;
     --text-color: #333;
     --border-color: #e0e0e0;
+    --select-bg-color: #f0f0f0;
   }
   
   body {
@@ -88,8 +89,20 @@
     padding: 10px;
     margin-top: 5px;
     border: 1px solid var(--border-color);
+    background-color: var(--select-bg-color);
     border-radius: 8px;
+    color: var(--text-color);
   }
+
+  .add-workout-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--select-bg-color);
+    color: var(--text-color);
+}
   
   .primary-button {
     background-color: var(--primary-color);
@@ -110,7 +123,10 @@
     width: 100%;
     padding: 10px;
     border: 1px solid var(--border-color);
+    margin-top: 5px;
     border-radius: 8px;
+    background-color: var(--select-bg-color);
+    color: var(--text-color);
   }
   
   .workout-history h2 {
